@@ -38,5 +38,11 @@ Inside this `class`, we have a method called `main`. Methods, or functions as so
 
 The keyword `public` defines the visibility of the class and method.  `public` means that any other Java code can see and access the `main()` method within the `Main` class. The method `println()`, mentioned before is too `public`, that is why we can use it from our class. On the other hand, should the method be marked as `private`, then only the class where it is defined will be able to see and access this method.  This is like the private room in your house that no-one has access to but you.  This is how we control the visibility of code within Java.  With that said, Java 9 introduces modules ([article](https://www.oracle.com/corporate/features/understanding-java-9-modules.html)) which provide visibility across modules. 
 
+
+
+![Clone or Download](https://github.com/javacreed/hello-world/blob/master/images/Clone%20or%20download.png "Clone or Download")
+
+
+
 This concludes this simple article. Here we simply introduced the most popular class and some key concepts about Java. We’re far from ready and many other interesting articles will follow.  Let us know what articles you would like to see here and we will try our best to accommodate you. Feedback is always welcome.
 
