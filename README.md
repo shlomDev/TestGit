@@ -4,7 +4,7 @@ Hello World is the first program found in most programming books ([Wiki](http://
 
 Following is the classic _Hello World_ program.
 
-```
+```java
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello World");
@@ -18,7 +18,7 @@ Let's start decrypting the above code.  The first line defines a class named `Ma
 
 Right after the class name, `Main`, there is an opening curly bracket: `{`. There can be as many spaces as required between the class name and the open curly bracket.  Some programmers prefer to have the curly bracket in the next line instead as shown next.
 
-```
+```java
 public class Main 
 {
     public static void main(String[] args) 
@@ -38,11 +38,7 @@ Inside this `class`, we have a method called `main`. Methods, or functions as so
 
 The keyword `public` defines the visibility of the class and method.  `public` means that any other Java code can see and access the `main()` method within the `Main` class. The method `println()`, mentioned before is too `public`, that is why we can use it from our class. On the other hand, should the method be marked as `private`, then only the class where it is defined will be able to see and access this method.  This is like the private room in your house that no-one has access to but you.  This is how we control the visibility of code within Java.  With that said, Java 9 introduces modules ([article](https://www.oracle.com/corporate/features/understanding-java-9-modules.html)) which provide visibility across modules. 
 
-
-
-![Clone or Download](https://raw.githubusercontent.com/javacreed/hello-world/master/images/Clone%20or%20download.png "Clone or Download")
-
-
+<span style="display:block;text-align:center"><imag align="center" src="https://raw.githubusercontent.com/javacreed/hello-world/master/images/Clone%20or%20download.png" alt="Clone or Download"/></span>
 
 This concludes this simple article. Here we simply introduced the most popular class and some key concepts about Java. We’re far from ready and many other interesting articles will follow.  Let us know what articles you would like to see here and we will try our best to accommodate you. Feedback is always welcome.
 
