@@ -40,7 +40,7 @@ The keyword `public` defines the visibility of the class and method.  `public` m
 
 
 
-![Clone or Download](https://github.com/javacreed/hello-world/blob/master/images/Clone%20or%20download.png "Clone or Download")
+![Clone or Download](https://raw.githubusercontent.com/javacreed/hello-world/master/images/Clone%20or%20download.png "Clone or Download")
 
 
 
