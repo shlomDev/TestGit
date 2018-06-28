@@ -1,1 +1,5 @@
+# Site settings
+title: JavaCreed
+email: albert@javacreed.com
+
 theme: jekyll-theme-slate
